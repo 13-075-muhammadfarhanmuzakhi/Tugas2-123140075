@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita ITERA</title>
+    <style>
+      header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      header img {
+        height: 60px;
+      }
+      header h1 {
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 5px;
+        display: flex;
+        gap: 15px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+      }
+      caption {
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      footer {
+        margin-top: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo_farhan.png" alt="Logo Farhan" />
+      <div>
+        <h1>Berita ITERA</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="berita.html">Berita</a></li>
+            <li><a href="index.html#tentang">Tentang</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article id="berita-1">
+        <header>
+          <h2>Seminar Artificial Intelligence</h2>
+          <p>
+            <time datetime="2025-09-13">13 September 2025</time> | Oleh Muhammad
+            Farhan Muzakhi
+          </p>
+        </header>
+
+        <section>
+          <h3>Ringkasan</h3>
+          <p>
+            Seminar tentang kecerdasan buatan yang membahas penerapan AI di
+            berbagai bidang.
+          </p>
+        </section>
+
+        <section>
+          <h3>Agenda</h3>
+          <table>
+            <caption>
+              Agenda Seminar AI
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Waktu</th>
+                <th scope="col">Kegiatan</th>
+                <th scope="col">Pembicara</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>08:30</td>
+                <td>Registrasi</td>
+                <td>Oleh Panitia</td>
+              </tr>
+              <tr>
+                <td>09:00</td>
+                <td>Pembukaan</td>
+                <td>Oleh Rektor</td>
+              </tr>
+              <tr>
+                <td>10:00</td>
+                <td>Pemaparan Materi</td>
+                <td>Oleh Farhan Muzakhi</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <aside>
+          <h3>Berita Terkait</h3>
+          <ul>
+            <li><a href="#berita-2">PMB ITERA 2025</a></li>
+            <li><a href="#berita-3">Workshop Robotika</a></li>
+          </ul>
+        </aside>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ITERA</p>
+    </footer>
+  </body>
+</html>

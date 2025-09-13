@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITERA - Institut Teknologi Sumatera</title>
+    <style>
+      header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      header img {
+        height: 60px;
+      }
+      header h1 {
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 5px;
+        display: flex;
+        gap: 15px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      footer {
+        margin-top: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo_farhan.png" alt="Logo Farhan" />
+      <div>
+        <h1>ITERA</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="berita.html">Berita</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Selamat Datang di ITERA</h2>
+        <p>
+          Portal informasi seputar kegiatan dan berita Institut Teknologi
+          Sumatera.
+        </p>
+      </section>
+
+      <section>
+        <h2>Fitur Utama</h2>
+        <article>
+          <h3>Berita Kampus</h3>
+          <p>Kegiatan dan pengumuman terbaru dari kampus ITERA.</p>
+          <a href="berita.html">Baca Berita</a>
+        </article>
+
+        <article>
+          <h3>Akademik</h3>
+          <p>Informasi kurikulum dan layanan akademik mahasiswa.</p>
+        </article>
+      </section>
+
+      <aside>
+        <h2>Sorotan</h2>
+        <ul>
+          <li><a href="berita.html#berita-1">Seminar AI</a></li>
+          <li><a href="berita.html#berita-2">PMB 2025</a></li>
+        </ul>
+      </aside>
+
+      <section id="tentang">
+        <h2>Tentang ITERA</h2>
+        <p>
+          Institut Teknologi Sumatera adalah perguruan tinggi teknologi di
+          Lampung.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 ITERA</p>
+      <nav>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </footer>
+  </body>
+</html>
